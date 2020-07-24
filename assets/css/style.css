@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .carousel-content {
-  text-align: left;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
@@ -412,49 +412,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  align-items: center;
 }
 
-#hero .carousel-inner .carousel-item {
-  transition-property: opacity;
-  background-position: center top;
-}
-
-#hero .carousel-inner .carousel-item,
-#hero .carousel-inner .active.carousel-item-left,
-#hero .carousel-inner .active.carousel-item-right {
-  opacity: 0;
-}
-
-#hero .carousel-inner .active,
-#hero .carousel-inner .carousel-item-next.carousel-item-left,
-#hero .carousel-inner .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#hero .carousel-inner .carousel-item-next,
-#hero .carousel-inner .carousel-item-prev,
-#hero .carousel-inner .active.carousel-item-left,
-#hero .carousel-inner .active.carousel-item-right {
-  left: 0;
-  transform: translate3d(0, 0, 0);
-}
-
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
-
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-}
-
-#hero .carousel-indicators li {
-  cursor: pointer;
-}
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -1010,33 +970,33 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Team
+# Our review
 --------------------------------------------------------------*/
-.team {
+.review {
   background: #fff;
   padding: 60px 0 30px 0;
 }
 
-.team .member {
+.review .member {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.team .member .pic {
+.review .member .pic {
   border-radius: 4px;
   overflow: hidden;
 }
 
-.team .member img {
+.review .member img {
   transition: all ease-in-out 0.4s;
 }
 
-.team .member:hover img {
+.review .member:hover img {
   transform: scale(1.1);
 }
 
-.team .member .member-info {
+.review .member .member-info {
   position: absolute;
   bottom: -48px;
   left: 20px;
@@ -1046,7 +1006,7 @@ section {
   border-radius: 4px;
 }
 
-.team .member h4 {
+.review .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1055,7 +1015,7 @@ section {
   padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.review .member h4::after {
   content: '';
   position: absolute;
   display: block;
@@ -1066,33 +1026,33 @@ section {
   left: calc(50% - 25px);
 }
 
-.team .member span {
+.review .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-.team .member .social {
+.review .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.review .member .social a {
   transition: color 0.3s;
   color: #fff;
 }
 
-.team .member .social a:hover {
+.review .member .social a:hover {
   color: #9eccf4;
 }
 
-.team .member .social i {
+.review .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
 
 @media (max-width: 992px) {
-  .team .member {
+  .review .member {
     margin-bottom: 100px;
   }
 }
