@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 60px;
   transition: all 0.5s;
   transition: all 0.5s;
   padding: 10px 0;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 25px;
   margin: 0;
   padding: 10px 0;
   line-height: 1;
@@ -124,11 +124,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-transform: uppercase;
 }
 #header .discord h1 {
-  font-size: 30px;
+  font-size: 34px;
   margin: 0;
-  padding: 10px 40px 0;
-  line-height: 1;
-  font-weight: 400;
+  padding: 0px 40px 0;
   color:red;
 
 }
@@ -142,7 +140,47 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 0;
   max-height: 40px;
 }
+#header .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 6px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: #428bca;
+}
+#header .btn-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 5px;
+  color: red;
+  border: none;
 
+}
+#header .btn-started:hover {
+  color: rgb(82, 4, 4);
+
+}
+#header .btn-get-started:hover {
+  background: #1c5c93;
+}
+@media only screen and (min-width: 1000px) {
+  .mobile {display: none;}
+}
+@media only screen and (max-width: 770px) {
+  .desktop {display: none;}
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -267,12 +305,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding-top: 18px;
   background: #1f3548;
   transition: 0.4s;
-}
-@media only screen and (min-width: 770px) {
-  .mobile {display: none;}
-}
-@media only screen and (max-width: 992px) {
-  .desktop {display: none;}
 }
 .mobile-nav * {
   margin: 0;
@@ -872,11 +904,12 @@ section {
 }
 .review .card {
   border:none;
+  padding: 0px 15px 0px 20px;
+
 }
 .review .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
 
 #footer {
   background: #587187;
