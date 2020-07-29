@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #428bca;
+  background: rgb(163, 3, 3);
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #629fd3;
+  background: rgb(119, 20, 20);
   transition: background 0.2s ease-in-out;
 }
 
@@ -79,11 +79,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #topbar .contact-info i {
   color: red;
   padding: 4px;
-}
-
-#topbar .contact-info .icofont-phone {
-  padding-left: 20px;
-  margin-left: 10px;
 }
 
 #topbar .social-links a {
@@ -200,7 +195,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgb(206, 5, 5);
+  color: rgb(148, 0, 0);
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -214,71 +209,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu .button {
   color: white;
   text-decoration: none;
-  background-color: rgb(0, 4, 255);
+  background-color: rgb(148, 0, 0);
   text-align: center;
-}
-.nav-menu .drop-down ul {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: ease all 0.3s;
-}
-
-.nav-menu .drop-down:hover > ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.nav-menu .drop-down li {
-  min-width: 180px;
-  position: relative;
-}
-
-.nav-menu .drop-down ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: none;
-  color: #103453;
-}
-
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #428bca;
-}
-
-.nav-menu .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 5px;
-}
-
-.nav-menu .drop-down .drop-down ul {
-  top: 0;
-  left: 100%;
-}
-
-.nav-menu .drop-down .drop-down:hover > ul {
-  opacity: 1;
-  top: 0;
-}
-
-.nav-menu .drop-down .drop-down > a {
-  padding-right: 35px;
-}
-
-.nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
-  font-family: IcoFont;
-  position: absolute;
-  right: 15px;
 }
 
 @media (max-width: 1366px) {
@@ -303,7 +235,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1f3548;
+  background: rgb(148, 0, 0);
   transition: 0.4s;
 }
 .mobile-nav * {
@@ -315,13 +247,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #e3f0fc;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #9eccf4;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -366,7 +298,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #5c768d;
+  color: #790000;
 }
 
 .mobile-nav-overly {
@@ -451,7 +383,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero h2 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 48px;
   font-weight: 900;
   text-align:center;
@@ -526,7 +458,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: red;
+  color: rgb(148, 0, 0);
 }
 
 .section-title p {
@@ -584,6 +516,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding-bottom: 30px;
+  color:rgb(148, 0, 0);
 }
 
 .about .about-content {
@@ -727,7 +660,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #428bca;
+  background: rgb(148, 0, 0);
   color: #fff;
 }
 
@@ -776,7 +709,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info a {
-  color: #428bca;
+  color: rgb(148, 0, 0);
   margin: 0 4px;
   font-size: 18px;
   line-height: 1;
@@ -791,7 +724,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info a:hover {
-  background: #428bca;
+  background: rgb(94, 8, 8);
   color: #fff;
 }
 
@@ -809,7 +742,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Gallery Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 30px;
@@ -903,10 +836,13 @@ section {
   background: #fff;
   padding: 30px 0 30px 0;
   font-family: Arial, Helvetica, sans-serif;
+  color:rgb(148, 0, 0);
+  
 }
 .review .card {
   border:none;
-  padding: 0px 15px 0px 20px;
+  padding: 10px 15px 0px 20px;
+  color:rgb(148, 0, 0);
 
 }
 .review .card:hover {
@@ -914,17 +850,17 @@ section {
 }
 
 #footer {
-  background: rgb(206, 5, 5);
-  padding: 0 0 30px 0;
+  background: rgb(180, 0, 0);
+  padding: 0 0 20px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: rgb(223, 4, 4);
-  border-top: 1px solid rgb(211, 4, 4);
-  border-bottom: 1px solid rgb(196, 5, 5);
-  padding: 30px 0 30px 0;
+  background: rgb(255, 255, 255);
+  border-top: 1px solid rgb(245, 245, 245);
+  border-bottom: 1px solid rgb(153, 0, 0);
+  padding: 20px 0 20px 0;
   text-align: center;
   font-size: 20px;
 }
@@ -934,23 +870,24 @@ section {
 #footer .footer-top h4 {
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(148, 0, 0);
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 0px;
 }
 
 #footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
+  margin-top: 20px;
   background: #fff;
-  padding: 6px 10px;
+  padding: 6px 5px;
   position: relative;
   border-radius: 4;
+  border: 1px solid rgb(131, 131, 131);
 }
 
 #footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
+  padding: 1px -50px;
+  width: calc(110% - 110px);
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"] {
@@ -962,7 +899,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 10px;
-  background: black;
+  background: rgb(148, 0, 0);
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
@@ -986,4 +923,7 @@ section {
 
 #footer .credits a {
   color: black;
+}
+#footer .credits a:hover  {
+  color: red;
 }
