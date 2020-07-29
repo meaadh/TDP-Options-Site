@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #428bca;
+  color: red;
 }
 
 a:hover {
-  color: #9eccf4;
+  color: rgb(206, 5, 5);
   text-decoration: none;
 }
 
@@ -68,16 +68,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #444;
+  color: red;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #428bca;
+  color: rgb(206, 5, 5);
 }
 
 #topbar .contact-info i {
-  color: #428bca;
+  color: red;
   padding: 4px;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #topbar .social-links a {
-  color: #5c768d;
+  color: red;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #topbar .social-links a:hover {
-  color: #428bca;
+  color: rgb(206, 5, 5);
 }
 
 /*--------------------------------------------------------------
@@ -124,14 +124,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-transform: uppercase;
 }
 #header .discord h1 {
-  font-size: 34px;
+  font-size: 30px;
   margin: 0;
   padding: 0px 40px 0;
   color:red;
 
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #1c5c93;
+  color: rgb(206, 5, 5);
   text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #428bca;
+  background: red;
 }
 #header .btn-started {
   font-family: "Raleway", sans-serif;
@@ -169,11 +169,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 }
 #header .btn-started:hover {
-  color: rgb(82, 4, 4);
+  color: rgb(206, 5, 5);
 
 }
 #header .btn-get-started:hover {
-  background: #1c5c93;
+  background: rgb(206, 5, 5);
 }
 @media only screen and (min-width: 1000px) {
   .mobile {display: none;}
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgb(97, 1, 1);
+  color: rgb(206, 5, 5);
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -462,6 +462,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  font-weight: 600;
   text-align:center;
 
 }
@@ -482,11 +483,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #428bca;
+  background: red;
 }
 
 #hero .btn-get-started:hover {
-  background: #1c5c93;
+  background:rgb(206, 5, 5);
 }
 
 @media (max-width: 768px) {
@@ -525,7 +526,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c768d;
+  color: red;
 }
 
 .section-title p {
@@ -670,6 +671,7 @@ section {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  font-weight: 600;
   text-align:center;
 
 }
@@ -688,11 +690,11 @@ section {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #428bca;
+  background: red;
 }
 
 #services .btn-get-started:hover {
-  background: #1c5c93;
+  background: rgb(206, 5, 5);
 }
 
 /*--------------------------------------------------------------
@@ -912,106 +914,29 @@ section {
 }
 
 #footer {
-  background: #587187;
+  background: rgb(206, 5, 5);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5c768d;
-  border-top: 1px solid #768fa6;
-  border-bottom: 1px solid #67839c;
+  background: rgb(223, 4, 4);
+  border-top: 1px solid rgb(211, 4, 4);
+  border-bottom: 1px solid rgb(196, 5, 5);
   padding: 30px 0 30px 0;
   text-align: center;
   font-size: 20px;
 }
 
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
 
-#footer .footer-top .footer-info h3 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #768fa6;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #428bca;
-  color: #fff;
-  text-decoration: none;
-}
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
   position: relative;
   padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #9eccf4;
-  font-size: 18px;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  color: #9eccf4;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1036,15 +961,15 @@ section {
   border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
-  background: #428bca;
+  padding: 0 10px;
+  background: black;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #5295ce;
+  background: rgb(92, 0, 0);
 }
 
 #footer .copyright {
@@ -1060,5 +985,5 @@ section {
 }
 
 #footer .credits a {
-  color: #9eccf4;
+  color: black;
 }
